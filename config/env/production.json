@@ -1,0 +1,6 @@
+{
+    "db": "mongodb://localhost/mean",
+    "app": {
+        "name": "ActiveApp - Activities that are happening now around you."
+    }
+}

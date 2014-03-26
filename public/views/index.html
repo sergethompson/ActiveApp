@@ -1,0 +1,30 @@
+<!-- <section data-ng-controller="IndexController">
+	<div class="jumbotron">
+        <h1>'Allo, 'Allo!</h1>
+        <p>You now have</p>
+        <ul>
+            <li>Mongoose</li>
+            <li>Express</li>
+            <li>Angular</li>
+            <li>Node</li>
+        </ul>
+    </div>
+</section> -->
+
+<div class="row marketing">
+  <div ng-controller="Controller">
+  <form novalidate class="css-form">
+    Name: <input type="text" ng-model="user.name" required /><br />
+    E-mail: <input type="email" ng-model="user.email" required /><br />
+    Age: <input type="age" ng-model="user.age" required /><br />
+    Location: <input type="location" ng-model="user.location" required /><br />
+    Job: <input type="job" ng-model="user.job" required /><br />
+    Interests: <input type="interests" ng-model="user.interests" required /><br />
+    Type of Athlete: <input type="athlete" ng-model="user.athlete" required /><br />
+    Gender: <input type="radio" ng-model="user.gender" value="male" />male
+    <input type="radio" ng-model="user.gender" value="female" />female<br />
+    <button ng-click="reset()">RESET</button>
+    <button ng-click="update(user)">SAVE</button>
+  </form>
+</div>
+</div>

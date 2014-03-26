@@ -1,0 +1,7 @@
+{
+    "db": "mongodb://localhost/mean-travis",
+    "port": 3001,
+    "app": {
+        "name": "ActiveApp - Activities that are happening now around you. - Test on travis"
+    }
+}
